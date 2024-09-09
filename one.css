@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.countenior{
+    width:100% ;
+    min-height:100vh ;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('./back.jpg');
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 10px;
+}
+.calculatior{
+    width: 70%;
+    max-width: 600px;
+    margin-left: 20%;
+    margin-top: 7%;
+    text-align: center;
+    background-color: #65036ecb;
+    padding: 70px 40px;
+    border-radius: 30px;
+
+
+}
+.calculatior h1{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.calculatior h1 span{
+    color:#ffff76;
+}
+.input-box{
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+}
+.input-box input{
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px 14px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    background-color: #ffff76;
+}
+.input-box button{
+    background: #ffff76;
+    outline: 0;
+    border: 0;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.7s;
+    border: 2px solid #ffff76;
+
+}
+.input-box button:hover{
+    background: none;
+    color: white;
+}
+.input-box input::-webkit-calender-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100%-10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+#result{
+    font-size: 20px;
+}
+#result span{
+    color: #ffff76;
+}
+
